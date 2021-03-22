@@ -2,3 +2,47 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+.backdrop {
+  margin: 2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    image-url("girl.jpg");
+  background-position: center;
+  background-size: cover;
+  width: calc(100vw - 4%);
+  height: 100vh;
+  border-radius: 12px;
+}
+
+.header h1 {
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 118px;
+}
+
+.header h2 {
+  font-size: 48px;
+  line-height: 0.8;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prata", serif;
+  color: white;
+}
+
+.lightgrey {
+  color: lightgray;
+}
+
+.home-link {
+  padding-left: 0px;
+  transition-property: padding-left;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+
+.home-link:hover {
+  padding-left: 40px;
+}
